@@ -1,5 +1,5 @@
-#ifndef LAB_14_VECTOR_H
-#define LAB_14_VECTOR_H
+#ifndef LABA5A_VECTOR_H
+#define LABA5A_VECTOR_H
 #include <stdio.h>
 #include <malloc.h>
 #include <stdint.h>
@@ -21,6 +21,8 @@ void clear(vector *v);
 //освобождает память, выделенную под неиспользуемые элементы
 void shrinkToFit(vector *v);
 //освобождает память, выделенную вектору
+void deleteVector(vector *v);
+//проверяет является ли вектор пустым
 bool isEmpty(vector *v);
 //проверяет является ли вектор полным
 bool isFull(vector *v);
@@ -30,4 +32,10 @@ int getVectorValue(vector *v, size_t i);
 void pushBack(vector *v, int x);
 //удаляет последний элемент из вектора
 void popBack(vector *v);
-#endif //LAB_14_VECTOR_H
+// возвращает указатель на index-ый элемент вектора
+int* atVector(vector *v, size_t index);
+//возвращает указатель на последний элемент вектора
+int* back(vector *v);
+//возвращает указатель на первый элемент вектора
+int* front(vector *v);
+#endif //LABA5A_VECTOR_H

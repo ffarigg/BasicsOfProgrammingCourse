@@ -37,3 +37,8 @@
 4	59	7346306331159775	CMakeFiles/lab_14.dir/libs/data_structures/vector/vector.c.obj	bcb46d426d32af53
 6	60	7346306331169776	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	b90724986909cb43
 60	98	7346306331559864	libs/data_structures/libdata_structures.a	b333ebb9eea22bcc
+7	64	7346325543420336	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	b90724986909cb43
+2	68	7346325543420336	CMakeFiles/lab_14.dir/libs/data_structures/vector/vector.c.obj	bcb46d426d32af53
+5	78	7346325543570368	CMakeFiles/lab_14.dir/libs/data_structures/vector/main.c.obj	f247b1bf08ea1665
+64	111	7346325543900445	libs/data_structures/libdata_structures.a	b333ebb9eea22bcc
+111	176	7346325544530590	lab_14.exe	febee3e18f5379b7
