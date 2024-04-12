@@ -21,4 +21,13 @@ void clear(vector *v);
 //освобождает память, выделенную под неиспользуемые элементы
 void shrinkToFit(vector *v);
 //освобождает память, выделенную вектору
+bool isEmpty(vector *v);
+//проверяет является ли вектор полным
+bool isFull(vector *v);
+//возвращает i-ый элемент вектора
+int getVectorValue(vector *v, size_t i);
+//добавляет элемент x в конец вектора
+void pushBack(vector *v, int x);
+//удаляет последний элемент из вектора
+void popBack(vector *v);
 #endif //LAB_14_VECTOR_H
