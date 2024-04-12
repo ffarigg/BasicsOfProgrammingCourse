@@ -6,6 +6,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
@@ -13,6 +17,36 @@
 					},
 					"projectIndex" : 0,
 					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/data_structures",
+					"jsonFile" : "directory-libs.data_structures-Debug-0cfcfe6a98a5047ea631.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/data_structures",
 					"targetIndexes" : 
 					[
 						0
@@ -25,21 +59,31 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					],
 					"name" : "lab_14",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 2,
+					"id" : "data_structures::@396ab3a44f37844d7cdb",
+					"jsonFile" : "target-data_structures-Debug-0356a4834830eb1055cf.json",
+					"name" : "data_structures",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 0,
 					"id" : "lab_14::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab_14-Debug-887668358bbbbb6f646a.json",
+					"jsonFile" : "target-lab_14-Debug-95ecbc7e9cce0af50900.json",
 					"name" : "lab_14",
 					"projectIndex" : 0
 				}
